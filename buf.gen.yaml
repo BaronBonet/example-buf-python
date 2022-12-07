@@ -1,0 +1,8 @@
+version: v1
+plugins:
+  - remote: buf.build/protocolbuffers/plugins/python
+    out: app
+  - remote: buf.build/grpc/plugins/python
+    out: app
+  - remote: buf.build/adriansahlman/plugins/mypy-protobuf
+    out: app
